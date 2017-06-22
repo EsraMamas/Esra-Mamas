@@ -149,6 +149,6 @@ public class ReparaturAuftragsServiceIntegrationTest {
         assertTrue(auftrag.istOffen());
         assertFalse(auftrag.istGeschlossen());
         assertEquals(2, auftrag.getReparaturLeistungen().size());
-    }
+    }    
 
 }

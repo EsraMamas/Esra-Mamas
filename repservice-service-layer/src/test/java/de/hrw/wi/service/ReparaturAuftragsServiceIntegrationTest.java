@@ -72,6 +72,8 @@ public class ReparaturAuftragsServiceIntegrationTest {
 
     @Test
     public void testAbrechnen() throws Exception {
+        
+        //auskommentiert und oben bei setup eingefügt
 //        // Initialisierung von DBUnit Anfang
 //        databaseTester = new JdbcDatabaseTester("org.hsqldb.jdbcDriver", DB_URL, USER, PASSWORD);
 //        databaseTester
